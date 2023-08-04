@@ -3,3 +3,6 @@ from django.http import HttpResponse
 # Create your views here.
 def home(request):
     return render(request, 'home.html',{'name':'Andrés Prada Rodriguez'})
+
+def about(request):
+    return render(request, 'about.html')
